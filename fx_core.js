@@ -112,7 +112,7 @@ var settings = {
     "coloredDensity": true,
     "densityDisplayStyle": "percentage",
     //"customMapFileBtn": true
-    "customBackgroundUrl": "https://i.imgur.com/G1FJUXW.jpeg",
+    "customBackgroundUrl": "https://erdem-akgun.github.io/territorial/map.png",
     "attackPercentageKeybinds": [],
 };
 const discontinuedSettings = [ "hideAllLinks", "fontName" ];
@@ -406,9 +406,5 @@ settingsManager.applySettings();
 
 
 
-//
-            document.body.style.backgroundImage = "url(" + "https://i.imgur.com/G1FJUXW.jpeg" + ")";
-            document.body.style.backgroundSize = "cover";
-            document.body.style.backgroundPosition = "center";
-//
+
 console.log('Successfully loaded FX Client');
